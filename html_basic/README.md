@@ -1,41 +1,58 @@
-# HTML Basics – My First Portfolio
+# My First Portfolio
 
-This project is part of my ALX Front-End journey. It contains the very first steps of learning how to structure webpages using HTML.
-
-## Files
-
-### `base_index.html`
-A simple, valid HTML5 file that includes:
-- A proper DOCTYPE declaration
-- `<head>` section with a title
-- `<body>` section
-
-It was tested and validated using the [W3C HTML Validator](https://validator.w3.org/).
-
-### `index.html`
-A more complete HTML file that includes:
-- Headings (`<h1>`, `<h2>`, `<h3>`)
-- At least four paragraphs
-- A clickable image that links to a website
+This repository contains my first hands-on practice with basic HTML structure and webpage design as part of my ALX Frontend Development journey.
 
 ## Directory Structure
 
-```
-My_First_Portfolio/
-└── html_basic/
-    ├── base_index.html
-    ├── index.html
-    └── README.md
-```
+All HTML files are located in the `html_basic` directory.
 
-## Why This Project?
+---
 
-To build a strong foundation in front-end development, it’s important to:
-- Understand how HTML is structured
-- Use semantic tags properly
-- Build from simple pages to more complex ones
+## 📄 base_index.html
 
-## Author
+This is the most basic valid HTML file created to understand the foundation of any web document. It includes:
 
-Mmesoma Chukwumezie  
-Frontend Developer in training — ALX
+- A `<!DOCTYPE html>` declaration
+- A `head` section with a page title
+- A `body` section
+
+Validated and fixed using the [W3C HTML Validator](https://validator.w3.org/).
+
+---
+
+## 📄 index.html
+
+This is the main homepage of the project and includes:
+
+- Multiple paragraph tags (`<p>`)
+- Headings of levels 1, 2, and 3 (`<h1>`, `<h2>`, `<h3>`)
+- A clickable image that links to a web URL
+- A link to the `tweets.html` page for users to view embedded tweets
+
+---
+
+## 📄 tweets.html
+
+A fun additional page that includes:
+
+- An embedded tweet (following Twitter’s official embed guidelines)
+- A link back to `index.html` for navigation
+
+This page demonstrates embedding external content and internal linking within a small static site.
+
+---
+
+## 🔗 Navigation
+
+- [Homepage (`index.html`)](./index.html)
+- [Tweets Page (`tweets.html`)](./tweets.html)
+
+---
+
+## 🧠 What I Learned
+
+- Writing valid HTML structure
+- Using paragraph and heading tags correctly
+- Embedding images and hyperlinks
+- Linking internal HTML pages
+- Embedding social media content (Twitter)
