@@ -1,45 +1,34 @@
 # My First Portfolio
 
-This is a simple HTML portfolio project that demonstrates the foundational structure of a multi-page website using only HTML.
+This project showcases basic HTML skills using semantic elements such as `<header>`, `<main>`, `<footer>`, `<article>`, and `<aside>`. It includes navigation, embedded tweets, structured tables, and accessible formatting to demonstrate beginner-level frontend development practices.
 
-## Project Structure
+## 🧠 Project Structure
 
-**Repository**: My_First_Portfolio  
-**Directory**: html_basic
+- **index.html**  
+  A webpage about brown bears, featuring:
+  - A structured header with navigation links.
+  - Informational content on brown bears in the `<article>`.
+  - An `<aside>` with additional bear facts.
+  - A `<table>` listing names, ages, and countries of fictional brown bears.
+  - A semantic footer with author credit and link.
 
-### Files
+- **tweets.html**  
+  A page embedding interesting Twitter tweets about brown bears. It includes:
+  - Navigation header linking back to the homepage.
+  - Main content section with tweets in `<article>`.
+  - Placeholder comment thread area in `<aside>`.
+  - Footer with author information.
 
-- `base_index.html`  
-  The most basic valid HTML structure with DOCTYPE, head, and body. Serves as the starting point.
+## ✅ Features
 
-- `index.html`  
-  A structured webpage about brown bears with:
-  - Headings (`<h1>`, `<h2>`, `<h3>`)
-  - Paragraphs and image
-  - Navigation links to other pages
-  - Embedded semantic layout: `<header>`, `<main>` (`<article>` + `<aside>`), `<footer>`
+- Semantic HTML structure (`<header>`, `<main>`, `<footer>`)
+- Internal navigation using `<ul>` and `<a>` tags
+- Embedded Twitter content
+- Informational `<aside>` section
+- Structured `<table>` with headers and data rows
+- Responsive layout using meta viewport
 
-- `tweets.html`  
-  A second webpage featuring:
-  - Embedded tweets
-  - Navigation back to the homepage
-  - Semantic structure as above
+## 📎 Author
 
-- `README.md`  
-  This documentation file that explains the purpose and structure of the project.
-
-## Features
-
-- Semantic HTML5 structure
-- Navigation bar using `<ul>` and `<a>` tags
-- Embedded media (images and tweets)
-- Responsive meta tags
-- Valid HTML checked with [W3C Validator](https://validator.w3.org)
-
-## Footer
-
-Each page includes a footer with author attribution and external link.
-
-## Author
-
-Made by Mmesoma Chukwumezie - [My GitHub](https://github.com/Mmesoma-C)
+Made by **Mmesoma Chukwumezie**  
+🔗 [Project Directory on GitHub](https://github.com/maysummer-25/My_First_Portfolio/tree/main/html_basic)
